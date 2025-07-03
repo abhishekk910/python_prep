@@ -11,8 +11,11 @@ Write a Python program to:
 numbers = (10, 15, 22, 33, 40, 55, 60)
 
 even_tuples = tuple()
-
+odd_tuples = tuple() 
 for number in numbers:
     if number % 2 == 0:
         even_tuples += (number,)
+    else:
+        odd_tuples += (number,)
 print(even_tuples)  
+
