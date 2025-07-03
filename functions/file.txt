@@ -1,0 +1,52 @@
+# Problem: Create a function that calculates the grade based on average score.
+# Rules:
+# - Avg ≥ 90 → "A"
+# - Avg ≥ 75 → "B"
+# - Avg ≥ 60 → "C"
+# - Avg < 60 → "F"
+# Use *args to accept variable number of scores.
+
+def grade_student(name, *scores):
+    pass
+
+# Expected Outputs:
+# grade_student("Abhishek", 90, 85, 88)      → "Abhishek got grade B"
+# grade_student("Riya", 95, 92, 91, 98)      → "Riya got grade A"
+# grade_student("Tom", 50, 60)               → "Tom got grade C"
+
+
+
+
+
+
+====================
+
+# Problem: Write a function that accepts system name and any number of keyword arguments.
+# Return a formatted string showing the system name and its configuration details.
+# Use **kwargs.
+
+def summarize_config(system_name, **config):
+    pass
+
+# Expected Output:
+# summarize_config("ArcusNode1", CPU="Intel", RAM="64GB")
+# → 
+# System: ArcusNode1
+# CPU: Intel
+# RAM: 64GB
+
+
+===============================
+
+# Problem: Create a calculator that supports add, subtract, multiply, divide
+# Use 'operation' as a keyword argument with default value "add"
+
+def calculate(a, b, operation="add"):
+    pass
+
+# Expected Outputs:
+# calculate(10, 5)                         → 15
+# calculate(10, 5, operation="subtract")   → 5
+# calculate(4, 3, operation="multiply")    → 12
+# calculate(8, 0, operation="divide")      → "Division by zero"
+
