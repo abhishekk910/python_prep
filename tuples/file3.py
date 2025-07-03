@@ -19,3 +19,4 @@ for number in numbers:
         odd_tuples += (number,)
 print(even_tuples)  
 
+print(odd_tuples)
