@@ -23,3 +23,5 @@ class BlogTest(TestCase):
 
         self.assertEqual(b1.__repr__(), "Test1 by Test Author1 has 1 Post")
         self.assertEqual(b2.__repr__(), "Test2 by Test Author2 has 2 Posts")
+
+
